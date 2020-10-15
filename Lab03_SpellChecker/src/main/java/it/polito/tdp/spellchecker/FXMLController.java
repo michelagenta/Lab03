@@ -8,18 +8,77 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 
+
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+
 public class FXMLController {
 
-    @FXML // ResourceBundle that was given to the FXMLLoader
+    @FXML
     private ResourceBundle resources;
 
-    @FXML // URL location of the FXML file that was given to the FXMLLoader
+    @FXML
     private URL location;
 
-    @FXML // This method is called by the FXMLLoader when initialization is complete
+    @FXML
+    private Label lbtChoice;
+
+    @FXML
+    private ComboBox<?> boxLingua;
+
+    @FXML
+    private TextArea txtDaInserire;
+
+    @FXML
+    private Button spellCheckButton;
+
+    @FXML
+    private Label lbtWrong;
+
+    @FXML
+    private TextArea txtDaCorreggere;
+
+    @FXML
+    private Label lbtNumber;
+
+    @FXML
+    private Button clearTextButton;
+
+    @FXML
+    void doActivation(ActionEvent event) {
+
+    }
+
+    @FXML
+    void doClearText(ActionEvent event) {
+
+    }
+
+    @FXML
+    void doSpellCheck(ActionEvent event) {
+
+    }
+
+    @FXML
     void initialize() {
+        assert lbtChoice != null : "fx:id=\"lbtChoice\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert boxLingua != null : "fx:id=\"boxLingua\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert txtDaInserire != null : "fx:id=\"txtDaInserire\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert spellCheckButton != null : "fx:id=\"spellCheckButton\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert lbtWrong != null : "fx:id=\"lbtWrong\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert txtDaCorreggere != null : "fx:id=\"txtDaCorreggere\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert lbtNumber != null : "fx:id=\"lbtNumber\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert clearTextButton != null : "fx:id=\"clearTextButton\" was not injected: check your FXML file 'Scene.fxml'.";
 
     }
 }
+
+
 
 
