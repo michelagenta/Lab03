@@ -27,7 +27,7 @@ public class FXMLController {
     private URL location;
 
     @FXML
-    private Label lbtChoice;
+    private Label lblChoice;
 
     @FXML
     private ComboBox<?> boxLingua;
@@ -39,13 +39,13 @@ public class FXMLController {
     private Button spellCheckButton;
 
     @FXML
-    private Label lbtWrong;
+    private Label lblWrong;
 
     @FXML
     private TextArea txtDaCorreggere;
 
     @FXML
-    private Label lbtNumber;
+    private Label lblNumber;
 
     @FXML
     private Button clearTextButton;
@@ -67,13 +67,13 @@ public class FXMLController {
 
     @FXML
     void initialize() {
-        assert lbtChoice != null : "fx:id=\"lbtChoice\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert lblChoice != null : "fx:id=\"lbtChoice\" was not injected: check your FXML file 'Scene.fxml'.";
         assert boxLingua != null : "fx:id=\"boxLingua\" was not injected: check your FXML file 'Scene.fxml'.";
         assert txtDaInserire != null : "fx:id=\"txtDaInserire\" was not injected: check your FXML file 'Scene.fxml'.";
         assert spellCheckButton != null : "fx:id=\"spellCheckButton\" was not injected: check your FXML file 'Scene.fxml'.";
-        assert lbtWrong != null : "fx:id=\"lbtWrong\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert lblWrong != null : "fx:id=\"lbtWrong\" was not injected: check your FXML file 'Scene.fxml'.";
         assert txtDaCorreggere != null : "fx:id=\"txtDaCorreggere\" was not injected: check your FXML file 'Scene.fxml'.";
-        assert lbtNumber != null : "fx:id=\"lbtNumber\" was not injected: check your FXML file 'Scene.fxml'.";
+        assert lblNumber != null : "fx:id=\"lbtNumber\" was not injected: check your FXML file 'Scene.fxml'.";
         assert clearTextButton != null : "fx:id=\"clearTextButton\" was not injected: check your FXML file 'Scene.fxml'.";
 
     }
